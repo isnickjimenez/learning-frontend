@@ -1,0 +1,34 @@
+.box {
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+}
+    /* RGB */
+    /* R (red)             G (green)                 B (blue)                A (opacidad)
+       0-255                   0-255                      0-255                    0-255 
+     
+       RGB: (75, 21, 1)
+*/
+
+.box {
+    background: rgb(75, 21, 1);
+    /* padding: 20px 50px; */
+    /* text-align: center; */
+    /* color: #a6026c; */
+    /* border-top: 2px solid; */
+    /* font-family: sans-serif; */
+}
+
+/* Exadecimal */
+/* # 00 - aa - 43  - 14 (Opacidad) */
+
+.box-hex {
+    background: #d1024e44 ;
+}
+
+/* HSL */
+/* (0, saturacion %, iluminacion %) */
+
+.box-hsl {
+    background: hsl(306, 73%, 46%);
+}

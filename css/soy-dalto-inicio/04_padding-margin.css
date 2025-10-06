@@ -1,0 +1,26 @@
+.formulario {
+    background: #c01d1d;
+    /* padding: 10px; */
+    padding-top: 10px; /* espacio arriba */
+    padding-bottom: 50px; /* espacio abajo */
+    padding-left: 20px;
+    padding: 30px;
+}
+
+.formlario_imput{
+    padding: 6px 10px;
+    margin: 5px;
+    width: 97%;
+    border-color: rgb(116, 116, 116);
+    border-radius: 10px;
+}
+
+/* En margin: cuando colapsan entre si se queda el tamaño del margen mas grande (no se suman) */
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform:  uppercase;
+    background-color: aquamarine;
+    color: black;
+    width: 20%;
+}

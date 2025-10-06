@@ -1,0 +1,12 @@
+div {
+    background:  #ef1a0b;
+    width: 100%; /* Difine el ancho (al costado) */
+    height: 200px; /* Difine el largo (al frente) */
+}
+
+p {
+    background: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}   

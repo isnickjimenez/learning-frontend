@@ -1,0 +1,45 @@
+/*  */
+
+body {
+    width: auto;
+    height: 10000px;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+    background: #2e2e2e2e;
+    margin: auto;
+    /* aqui centra en la mitad ya que es responsive */
+    margin-top: 50px;
+    /* se separa el arriba */
+    padding: 10px;
+    /* esto le da 10px a los elementos dentro del .box*/
+    text-align: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* (derecha, abajo, opacidad, cuanto se expande, color) */
+    /* derecha positivo  - izquieroda dengativo  */
+    box-shadow: -2px 2px 80px 0px #0007;
+}
+
+p {
+    margin-top: 5px;
+    letter-spacing: 1.5px;
+    
+    list-style: none;
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 20px;
+    /* (vertical, hporizontal, desenfoque, color) */
+    /* Este no tiene lo que es el dato de expader */
+    text-shadow: 0 0 12px rgb(101, 58, 101);
+}
+
+img {
+    width: 120px;
+    border-radius: 100%;
+    /* (vertical, hporizontal, desenfoque, color) */
+    /* Este con shadow pero es con filter siemrpre y cuando hay una imagen como un logo de letras*/
+    filter: drop-shadow(2px 2px 1PX #2d042d);
+}

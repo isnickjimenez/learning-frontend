@@ -1,0 +1,14 @@
+/* Seleccionamos por elemento */
+body {
+    background: #949292;
+}
+
+/* Seleccionamos por classe */
+.faltante {
+    color: red
+}
+
+/* Seleccionamos por id pero no es recomendano*/
+#ingrediente {
+    color: blue;
+}

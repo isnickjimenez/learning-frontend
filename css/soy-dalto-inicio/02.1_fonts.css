@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "Merida";  /* Aqui se pone el nonrbe de la tipografiapuede ser cualquiera */
+    src: url("../../assets/fonts_/Merienda/Merienda-VariableFont_wght.ttf") format("truetype"); /*El URL de la tipografia*/
+    font-weight: 400;
+}

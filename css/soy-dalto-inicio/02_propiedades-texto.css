@@ -1,0 +1,20 @@
+p {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; /* tipogrfia */
+    font-size: 15px;
+    font-weight: bold;  /* bold es 700 bolder es 1 paso mas */
+    font-style: normal; /* tipo si es cursiva o normal*/
+    text-align: end; /* alineacion izq derec o justificado*/
+    text-decoration: wavy underline; /* decoraciones, subrayado o rayado */
+    line-height: 1.5; /* es el tamaño de interlinedo*/
+    letter-spacing: 2px; /* es la separacion por letras*/
+    text-transform: uppercase; /* esto transforma el texto en este caso esta poniendo en mayuducla todo */
+    /* max-width: end; */
+}
+
+
+/* Instalar en google fonts 2:47:00 en el video de youtube de soy dalto */
+
+h1 {
+    font-family: 'Merida';
+}

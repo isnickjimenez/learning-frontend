@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+.box {
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    /* background: url() position / cover fixed #6fa; */
+    background-color: #0000;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKepU4OV3p-C0kQ1hjpemNf5kjJpv69PVpg&s");
+    background-size: auto; /* Esta propiedad se acomoda para width en  su tamaño de dicce 850px */
+    background-size: contain; /* Obliga a la imagen e le tamaño acorde que se etsa poniendo en el width y height */
+    background-size: cover; /* Ser acomoda a imagen de acuerdo al tamaano dependeindo de la resolucion */
+    background-position: top;
+
+    /*background-attachment: fixed; /*  Juega con elefecto de scrool con la imagen es movible */
+    /* background: linear-gradient(#000, transparent); /* Juega un fondo gradiente */
+
+}

@@ -1,0 +1,122 @@
+.ld__body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma;
+    /* background: #000000; */
+}
+
+.ld__section {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../recursos/workspace.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ld__section__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+
+.ld__section__content {
+    padding: 80px 20px 20px 10px;
+    color: #fff;
+}
+
+.ld_div__title {
+    /* font-size: 3.5rem; */
+    font-size: 58px;
+    margin: 0 35px;
+    line-height: 80px;
+    box-sizing: border-box;
+}
+
+h1>span {
+    font-weight: bold;
+}
+
+div>p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.ld__p__strong__subtitle {
+    color: #f3a2ab
+}
+
+.ld__section__button {
+    color: #fff;
+    /* width: 200px;
+    height: 45px; */
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #04AA6D;
+    font-size: 18px;
+    /* font-weight: lighter; */
+    border: none;
+    border-radius: 50px;
+}
+
+.ld__section__button:hover {
+    background-color: #058959;
+}
+
+.ld__section__skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 10px;
+    margin: auto 25vw;
+    padding: 100px 0;
+    color: #eee;
+    justify-content: center;
+    align-items: center;
+    /* height: auto; */
+}
+
+.ld__section__item__skill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ld__section__icon {
+    margin: auto 0 auto auto;
+    width: 100px;
+    height: 80px;
+}
+
+.text--skill {
+    margin: 0px 10px auto 0;
+    font-size: 20px;
+    padding: 0;
+    display: flex;               /* Activa Flexbox */
+    flex-direction: column;      /* Organiza los elementos (h2 y span) en columna */
+    justify-content: center;     /* Centra el contenido verticalmente */
+    align-items: center;         /* Centra el contenido horizontalmente */
+    height: 100%;                /* Asegura que el contenedor ocupe toda la altura disponible */
+    text-align: center;  
+}
+
+.text--skill span {
+    display: block;
+    font-size: 10px;
+    margin: 8px0;
+    padding: auto;
+}
+
+@media (max-width: 600px) {
+    .ld__section__skills {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* }************************ */
+
+.ld_section_planes {
+    margin: 0;
+    background-color: #3333;
+}

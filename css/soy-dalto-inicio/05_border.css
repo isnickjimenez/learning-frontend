@@ -1,0 +1,14 @@
+body {
+    background: #171717;
+}
+
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    /* border: width color style */
+    border-bottom: 2px solid greenyellow;
+    border-radius: 3px;
+    background: transparent;
+    color: yellowgreen;
+}

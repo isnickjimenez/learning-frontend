@@ -1,0 +1,49 @@
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+}
+
+h1 {
+    margin: 0;
+    font-size: 12pt;
+    /* height: 20vh;         vipor height(vh): es el anchoq ue se ve de la vista */
+}
+
+span {
+    color: #999;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+p {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+/*
+    Medidas relativas 
+
+    Los % definen algo respecto al tamaño contenedor padre
+       contenedor padres       % -->  al contenedor hijo
+       font-size (letra) padre % -->  al font-size (letra) hijo
+    
+    em: toma e tamaño del contenidor padre y lo multiplica por el numero que lo antepone
+        si es que no tiene sube 1 mas al abuelo 
+        font-size (padre): 20px  
+        font-size (hijo): em --> 20px
+        font-size (hijo): 2em --> 2*20px ---> 40px
+
+    rem: en este paso busca el elemento raiz y no el padre
+        raiz es html 
+          font-size (raiz): 30px
+          font-size (hijo): rem ---> 30px
+          font-size (hijo): 2rem ---> 2*30px ---> 60px
+          
+
+    Medidas absolutas (no son darle con a un responsive)
+
+    pt: medidas absoluta es para imprimir (jamas se usa)
+    cm / mm / in(pulgadas): al imprimir saldria la medida que sale
+*/

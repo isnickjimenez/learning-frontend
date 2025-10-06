@@ -1,0 +1,15 @@
+/* Seleccionamos por elemento */
+body {
+    background: #94929255;
+}
+
+/* Seleccionamos por classe */
+.faltante {
+    color: red
+}
+
+/* Seleccionamos por ID pero no es recomienda*/
+/* por que el id es unico para un elemento */
+#ingrediente {
+    color: blue;
+}
