@@ -11,7 +11,7 @@ Click any of the images below to view the readme and live demo of the project.
 
 <div align="center" style="
   background-color: #0d1117;
-  border: 1px solid #30363d;
+  border: 1px solid white;
   border-radius: 10px;
   padding: 20px;
   width: 90%;
