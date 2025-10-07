@@ -2,9 +2,9 @@
 
 This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
 
-## Projects List
+## Projects List  
 
-[Single Page CV](https://roadmap.sh/projects/single-page-cv), [Basic Web Site](https://roadmap.sh/projects/basic-html-website)
+[Present Card](projects/py_dalto_present%20card/), 
 
 
 Click any of the images below to view the readme and live demo of the project.
