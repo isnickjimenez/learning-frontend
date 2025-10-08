@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    /* width: 500px;
+    height: 500px; */
+    background-color: #f055;
+
+    display: flex; /* esto lo vuelve flexible al editor*/
+    /* flex-direction: row; esto modifica la direccion de ow que es fials o columnas */
+    /* flex-wrap: wrap; esto se rompe el multiple lineas */
+    /* flex-wrap: nowrap;  esto no rompe en lineas y es por defecto*/
+    /* flex-flow: row wrap; */ /* tambien se puede manejar en una sola linea */
+    height: 50px; 
+    
+    flex-flow: row;
+
+    /*
+        start: se alinia acuerdo al texto
+        end: al final del eje de acuerdo al texto
+        center: te centra los elementos
+        space-betwwen: aqui divide el primer elemento al inicio del eje 
+                       el ultimo en el ultimo eje y el del centro en el centro
+        space-around: aqui le dara un espacio a los costados del elemento
+                        que como lo acomoda en el centro
+        space-evenly: aqui pone el mismo margen a todos los elementos
+
+    */
+    
+    justify-content: space-evenly;
+
+
+
+    /*
+        stretch: esta propiedad hace que el elemento se estire en todo 
+                 el tamaño del contenedor.
+        baseline: se alinea a base del texto.
+    */
+
+    /* es para 1 sola fila o columa */
+    align-items: center;
+    /* es para 2 o mas fials o columnas */
+    align-content: stretch;
+
+
+}
+
+.box__item {
+    width: 100px;
+    /* height: 100px; */
+    background-color: #333;
+    margin: 5px;
+}
+

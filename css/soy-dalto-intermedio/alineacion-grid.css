@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    padding: 10px;
+
+    /* 
+        funcionan como en flex acuerdo a la direccion del texto.
+
+        star, tiene en cuenta la diracion del contenedor
+        self-star, tiene en cuenta la direccion de contenido  
+        end, es al final 
+        center, es en el medio
+        rigth, alinea en su propia celda a la derecha 
+        left, alinea en su propia celda a la izquierda
+     */
+    justify-items: center; 
+
+    /* 
+        item: es item
+        conten es contenido pues 
+    */
+    justify-content: space-evenly;
+
+    /* 
+        de igual manera es el alignt
+    */
+
+    align-items: center;
+    align-content: center;
+}
+
+.grid--item:nth-child(3) {
+    /* 
+        stretch hace que el contenido se expanda 
+    */
+    justify-self: end;
+    background-color: #e66;
+}
+
+
+.grid--item:nth-child(6) {
+    /* 
+        stretch hace que el contenido se expanda 
+    */
+    align-self: stretch;
+    background-color: rgb(108, 208, 66);
+}
+
+
+
+
+
+.grid--item {
+    background-color: #48e;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 40px;
+
+    padding: 20px;
+
+    /* 
+        esta es una manera de centrar algo
+    */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+
+
+
+}

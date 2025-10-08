@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+
+    /* 
+        repeat permite que patrones repetidos se úedan acomo 
+                con FR o px
+    */
+
+    /* grid-template-columns: 100px repeat(3, 2fr 1fr) 100px; */
+
+    /* 
+        minmax permite dar un minimo y un maximo y se puedo cominar 
+                con repeat tanto en columnas como en filas  
+    */
+
+    grid-template-columns: auto repeat(4, minmax(200px, 500px)) auto;
+
+    /* 
+    repear (cantidad de fials o cuolumasn, tamaño) 
+    */
+    height: 100vh;
+    grid-template-rows: repeat(1, 1fr);
+
+    /* 
+        se puede dar tamaño a las filas inplicitas, las que no 
+            estamos danto un estilo  
+    */
+    grid-auto-rows: 50px;
+    grid-auto-columns: 50px;
+    
+    /* 
+        grid-auto-flow , no permite dar la direccion del grid para las
+            el neuvo contenido puede ser columns o rows
+            
+    */
+    grid-auto-flow: column;
+}
+
+.grid--item {
+    background-color: #48e;
+    color: #eee;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px;
+}

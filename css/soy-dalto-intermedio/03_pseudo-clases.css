@@ -1,0 +1,61 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* cuando el mouse pasa por el elemento da el estilo */
+h1:hover {
+    color: #eee;
+    background-color: #333;
+}
+
+/* cuando el mouse da click por el elemento le da el estilo 
+solo cuando me quedo dando click */
+h1:active {
+    color: #f00;
+    background-color: #48e;
+}
+
+ul li {
+    color: rgb(203, 222, 33);
+}
+
+/* seleccionas el primer li */
+li:first-child {
+    color: red;
+}
+
+/* excluir la clase de .excluir del li */
+li:not(.excluir) {
+    /* color: #eee; */
+}
+
+/* seleccionas el ultimo li */
+li:last-child {
+    color: blue;
+}
+
+/* selecciona el 3er elementio de li */
+li:nth-child(3n) {
+    color: rgb(15, 205, 38)
+}
+
+div {
+    border: 2px solid #333;
+}
+
+/* aqui activa el borde si no hay contenido alguno */
+div:empty {
+    border: none;
+}
+
+/* este le da el checkbox un margen de 50 pixeles */
+input[type="checkbox"]{
+    margin: 50px;
+}
+
+/* esto verifica si esta activo el checkbox le da el estilo a margen 0 */
+input[type="checkbox"]:checked{
+    margin:0
+}

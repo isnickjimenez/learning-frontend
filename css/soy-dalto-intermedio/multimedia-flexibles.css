@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body, div {
+    box-sizing: border-box;
+}
+
+/* Imagenes */
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Videos */
+.container {
+    /* position: relative; */
+    max-width: 100%;
+    /* padding-top: 56.25%;
+    height: 0; */
+
+
+    aspect-ratio: 16/9;
+}
+
+video {
+    /* position: relative; */
+    max-width: 100%;
+    /* top: 0;
+    left: 0;
+    height: auto; */
+}

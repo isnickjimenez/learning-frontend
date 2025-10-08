@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    background-color: #f05;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(223, 187, 205);
+    margin: 10px;
+
+    order: 1; /* se colo dependeiendo al numeroq ue le ponemos en el order */ 
+
+    padding: auto;
+    text-align: center;
+    font-size: 90px;
+}
+
+.box__item:last-child {
+    background-color: #333;
+    order: 0; 
+}

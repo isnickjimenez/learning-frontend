@@ -1,0 +1,26 @@
+.container {
+    border: 2px solid #111;
+    margin: 20px 50px;
+    position: relative; /*se puede poner el relative, para limitar que elemeto se distribuya en este contenedor*/
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+}
+
+.box--blue {
+    background-color: rgb(141, 117, 193);
+    position: absolute; /* aqui se distribuye por donde sea amenos quepongamos un limite que el relativo*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box--red {
+    background-color: aquamarine;
+}

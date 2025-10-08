@@ -1,0 +1,15 @@
+#title-id {
+    color: aquamarine;
+}
+
+.title-class{
+    color: blue;
+}
+
+h1 {
+    color: #f00;
+}
+
+/* En la especificidad (mas especifica, especifico, menos especifico) */
+
+               

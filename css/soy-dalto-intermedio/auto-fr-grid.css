@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    /* 
+        en columns el auto es al tamaño del ancho (width) de
+        la pagina
+    */
+    grid-template-columns: auto min-content auto; 
+
+    /* 
+        en rows el auto depende del tamano del grid 
+        en este caso de le da un height de 100vh
+    */
+    height: 100vh;
+    grid-template-rows: 70% 30vh;
+
+    /* 
+        en ambos casos dependera del contenido y del espacio 
+        disponible ya que se reparten a partes iguales
+    */
+
+
+    /* 
+        el auto mientras que depende del contenido y resto 
+                de espacio lo reparte a partes iguales
+        el fr es la medida de fragmento que no le improta el contenido
+                reparte a grafmentos iguales
+    */
+}
+
+.grid--item {
+    background-color: #48e;
+    color: #eee;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px;
+}

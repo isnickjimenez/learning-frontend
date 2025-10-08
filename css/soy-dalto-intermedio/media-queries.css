@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body {
+    box-sizing: border-box;    
+}
+
+.flebox {
+    display: flex;
+}
+
+.box {
+    background-color: #f852;
+    padding: 30px;
+    border: 2px solid #f00;
+    flex-grow: 1;
+}
+
+/* esto se afectara solo para el atributo de print */
+@media print { 
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .flebox {
+        flex-direction: column;
+    }
+}

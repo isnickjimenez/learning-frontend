@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: #3333;
+    border: 3px solid #000;
+    gap: 30px;
+
+}
+
+.box__item {
+    background-color: #f05;
+    color: #eee;
+    font-size: 90px;
+    text-align: center;
+    flex: 1 1 100px;
+}
+
+.box__item:nth-child(2n) {
+    background-color: #333;
+}
+

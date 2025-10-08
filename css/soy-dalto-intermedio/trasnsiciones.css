@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.boxdos {
+    margin: 20px;
+    background-color: #fff;
+    border: 3px solid #48e;
+    border-radius: 39px;
+    padding: 6px;
+    transition: border .6s steps(12);
+}
+
+.barra{
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 10%;
+    /* 
+        aqui el linaer va en lineal
+    */
+    /* transition: width 4s linear; */
+    /* 
+        aqui es este steps es la funcion que salte en 6 o el numeo 
+        que se le da 
+    */
+    transition: width 4s steps(10), background-color .6s steps(12);
+
+}
+
+.barra:active {
+    width: 100%;
+    transition-duration: 1s;
+    background-color: #f33;
+}
+
+.boxdos:has(.barra:active) {
+    border: 4px solid #f33;
+    transition-duration: 1.8s;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin: auto; */
+    margin-top: 50px;
+    /* font-size: 40px; */
+    /* text-align: center;
+    font-weight: bold; */
+
+    transition-property: color, left
+        /*background-color*/
+    ;
+    /* 
+        que es lo que se peude trasisionar 
+    */
+    transition-duration: 1s;
+    /* 
+        el tiempo de la transicion 
+    */
+    transition-delay: 1s;
+    /* 
+        aqui hacen un efecto con tiempo  
+    */
+    transition-timing-function: cubic-bezier(.14, .82, .32, .84);
+
+    color: red;
+    position: relative;
+    left: 0;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: #eee;
+}
+
+
+body:hover .box {
+    left: 400px;
+    color: #eee;
+}

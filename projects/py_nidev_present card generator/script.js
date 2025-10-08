@@ -4,7 +4,7 @@ document.querySelector("button").addEventListener("click", function() {
     html2canvas(box, {
         scale: 1,
         width: 744,
-        height: 744,
+        height: 618,
         backgroundColor: null
     }).then(canvas => {
         const link = document.createElement('a');

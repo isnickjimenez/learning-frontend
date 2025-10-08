@@ -1,34 +1,45 @@
 * {box-sizing: border-box;}
 
 body {
-    margin: 300px;
+    margin: 0;
     background-color: rgb(45, 45, 90);
     font-family: sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background: #fff;
+}
+
+main {
+    margin: 200px;
 }
 
 .box {
     color: #fff;
     width: 744px;
-    height: 744px;
+    height: 618px;
     background-color: transparent;
     border: 2px solid rgb(172, 172, 172);
     border-radius: 50px;
 }
 
 .container-img{
-    height: 650px;
-    width: 600px;
-    margin: 10px auto 0 auto;
+    width: 710px; /*600px*/
+    height: 500px;
+    margin: 20px auto 10px auto;
     text-align: center;
     background-image: url(image.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    border: 2px solid #fff;
     border-radius: 50px;
 }
 
 h3 {
-    margin: 10px 0;
+    margin: 0 0;
     font-size: 60px;
     text-align: center;
 }

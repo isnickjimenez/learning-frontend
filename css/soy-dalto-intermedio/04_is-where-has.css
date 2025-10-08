@@ -1,0 +1,22 @@
+body {
+    color: #eee;
+}
+
+
+/* cualquiera peo el segundo es mejor */
+
+body .elemento1, 
+body .elemento2, 
+body .elemento3 {
+    color: blueviolet;
+} 
+
+:is(.elemento1, .elemento2, .elemento3) {
+    color: brown;
+}
+
+/* has */
+body:has(.elemento1) {
+    background-color: #000;
+}
+

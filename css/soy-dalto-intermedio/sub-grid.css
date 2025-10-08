@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+
+    justify-items: stretch;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-evenly;
+}
+
+.grid--item:first-child {
+    background-color: transparent;
+    grid-area: 2/1/span 2 / span 2;
+
+    display: grid;
+
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+
+    /* 
+        aqui se acomoda ala grilla mayor
+    */
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+
+    gap: 10px;
+    /* padding: 10px; */
+}
+
+.subgrid-item {
+    background-color: #bad230;
+    color: #333;
+    padding: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.subgrid-item:first-child {
+    background-color: #3333;
+    gap: 10px;
+    width: 200px;
+}
+
+.grid--item {
+    background-color: #48e;
+    border-radius: 8px;
+    color: #eee;
+    font-size: 40px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

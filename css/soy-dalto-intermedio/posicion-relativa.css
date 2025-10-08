@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    position: relative;
+}
+
+.box--blue {
+    background-color: rgb(141, 117, 193);
+    /* top - rigth: siempre seran prioridad en el navegador 
+    le tomaran mas importancia que bottom o left*/
+    left: 50px;
+    bottom: -10px;
+    z-index: 2;
+}
+
+.box--red {
+    background-color: aquamarine;
+}

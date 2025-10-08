@@ -1,0 +1,17 @@
+body {
+    background-color: #3333;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f053;
+    margin: 20px;
+    border: 2px solid #111;
+
+    /* overflow: visible; */ /* esto permite que sea visible lo que est dentro */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll ; */
+    overflow: auto;
+}

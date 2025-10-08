@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.container {
+    padding: 150px;
+    background-color: blue;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: fixed;
+    right: 0;
+    border-right: 0;
+    z-index: 30;
+}
+
+.box--blue{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(112, 43, 177);
+    position: sticky; /*tiene   que estar fuera de relative o fixed*/
+    top: 50px;
+    right: 10px;
+    /* box-sizing: border-box; */
+}

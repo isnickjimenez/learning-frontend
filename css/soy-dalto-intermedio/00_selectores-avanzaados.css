@@ -1,0 +1,41 @@
+body {
+    background-color: #333;
+}
+
+/* $ es escoger todas las imagenes todos los source que termine en nodev para darle 
+el estilo, es una condicion*/
+/* $ termina con ... */
+/* ^ empiesa con ... */
+img[src$="jpg"] {
+    width: 20%;
+    border-radius: 100%;
+    align-items: center;
+    
+}
+
+/* SELECTORES DECENDIENTES */
+/* le da el estilo al hijo que es strong del cual esta envuelto que es ul 
+puede ser abuelo o padre o bis abuelo */
+ul strong {
+    color: #f00;
+}
+
+/* SELECTORES HIJOS DIRECTAMENTE */
+/* le da el estilo al hijo directamente que envuelve el padre */
+/* en este caso no le da el estilo pro qeu strong no es hijo directo de ul, es nieto de ul */
+ul > li {
+    color: antiquewhite;
+}
+
+/* SELECTORES ADYACENTE */
+/* en cuabto a un selector de hermano adyacente, es cuando un elemto vienes despue del otro*/
+h1 + p {
+    color: #00f;
+}
+
+
+/* selector de hermano generales*/
+h1 ~ p {
+    color: yellow
+}
+

@@ -1,0 +1,15 @@
+body {
+    background-color: #3333;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(179, 106, 34);
+    background-color: #ffff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    /* white-space: auto; */
+    text-overflow: ellipsis;
+}

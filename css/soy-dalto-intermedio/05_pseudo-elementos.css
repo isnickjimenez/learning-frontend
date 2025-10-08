@@ -1,0 +1,38 @@
+div {
+    padding: 20px;
+}
+
+/* Se esta accediendo a la primera letra */
+h1::first-letter {
+    color: red;
+    font-size: 6rem;
+}
+
+/* Se esta modificando la primera linea de un div */
+div::first-line {
+    color: blue;
+    font-weight: bold;
+}
+
+/* se esta modificando el selector de un div */
+div::selection {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+input::placeholder {
+    color: greenyellow;
+    background-color: black;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+li::marker {
+    color: blueviolet;
+}
+
+li::before {
+    content: 'Elemeto: ';
+    color: aqua;
+}

@@ -1,0 +1,13 @@
+header {
+    /* m:10px; */
+    margin: 10px;
+
+    /* p:010px0auto; */
+    padding: 0px 10px 0px auto;
+
+    /* c#fff */
+    color: #fff;
+
+    /* bgc#333 */
+    background-color: #333;
+}

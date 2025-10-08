@@ -1,0 +1,27 @@
+/* Bloques Elementos Modificadores */
+/***********************************/
+
+/* Bloque: */
+
+/* Elementos: es una parte de un bloque. */
+
+/* Modificadore: es una forma de modificar un elemento o un bloque. */
+
+
+.list{
+    border: 2px solid #333
+}
+
+.list__item {
+    color: #333;
+    margin: 10px 0;
+    list-style: square; /* esto hace que la biñeta sea cuadrado */
+}
+
+.item--danino {
+    color: #f00;
+}
+
+.item--inportante {
+    color: #00f;
+}

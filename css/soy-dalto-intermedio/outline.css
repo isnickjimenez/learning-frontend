@@ -1,0 +1,39 @@
+.box {
+    width: 150px;
+    /* height: 150px; */
+    background-color: #1f8b8d;
+    color: #fdfdfd;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid #000;
+    padding: 10px;
+
+    /* Este outline no ocupa el espacio de la pacigo */
+    /*
+        with, es el ancho o tamaño que se quieres dar
+        style, se le da solid como al borde
+        color, se le da un color
+    */
+    outline-width: 10px;
+    outline-style: solid;
+    outline-color: aqua;
+    /* offset es para la separacion */
+    outline-offset: 10px;
+}
+
+input {
+    margin: 50px;
+    border: none;
+    border-top: 3px solid #000;
+    outline: 3px solid #000;
+    outline-offset: 5px;
+}
+
+input:focus {
+    border-color: orange;
+    color: orange;
+}
+
+input:focus {
+    outline: none;
+}

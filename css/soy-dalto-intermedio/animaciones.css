@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+    background-color: #fff;
+    border: 3px solid #48e;
+    border-radius: 39px;
+    padding: 4px;
+    transition: border .6s steps(12);
+}
+
+.box {
+    padding: 20px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 30%;
+    transition: width 4s steps(10), background-color .6s steps(12);
+    animation-name: llenar-barra;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+    /* 
+        fordwards, dice que empezara con los efectos de datos pasara a from y luego a to
+
+        both, dice que empesara por el from  hasta to
+    */
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+    /* 
+        reverse, lo hace al reves
+        alternate, hace que vaya y vuelva repitiendo
+    */
+    animation-direction: alternate;
+}
+
+/* 
+    aqui se pone las transiciones
+*/
+@keyframes llenar-barra {
+
+    /* 
+        en el from esta todas las propiedades cuando inico la transicion
+    */
+    from {
+        width: 30%;
+    }
+
+    /* 
+        en el to esta todas las propiedades cuando termina la transicion
+    */
+    to {
+        width: 100%;
+    }
+
+    /* 
+        esto es pare definir en la miad de la transicion
+    */
+    0% {}
+
+    50% {}
+
+    100% {}
+
+}

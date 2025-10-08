@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+div {
+    padding: 20px;
+    background-color: #999;
+}
+
+a {
+    /* background-color: #f00; */
+    color: #eee;
+    display: block;
+    /* se le dice que ocupe todo el ancho disponible o que sea como un bloque, <a> es inline, empieza nueva linea*/
+    margin: 20px;
+}
+
+
+p {
+    background-color: #333;
+    display: inline;
+    /* se le dice que actue con lineal y no como bloque */
+}
+
+img {
+    display: block;
+}
+
+/*  */
+
+.nav {
+    background-color: #333;
+    text-align: end;
+    padding: 100px 50px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.nav__item {
+    margin: 0;
+    padding: 8.5px 10px;
+    width: 60px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.nav__item:hover {
+    border: 1px solid #f05;
+    background-color: #967070cc;
+    color: #f05;
+}
+
+.item--button {
+    border: 1px solid #f05;
+    background-color: rgb(239, 50, 113);
+    color: #eee;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 9px 15px;
+    width: 60px;
+
+    border-radius: 3px;
+
+}
+
+.item--button:hover {
+    background-color: rgb(255, 164, 194);
+    color: #f05;
+}

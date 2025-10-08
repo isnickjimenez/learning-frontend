@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+    /* 
+        es una propiedad que dice donde creara las neuvas columans o filas
+    */
+    grid-auto-flow: dense;
+    /* 
+        el dense rellena los lugares vacios si es que no hay un item para que
+            no se vea desordenado pero no sera ordenado siempre    
+    */
+    
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.grid--item:nth-child(10) {
+    grid-column: span 4;
+    background-position: center;
+}
+
+.grid--item {
+    background-color: #48e;
+    border-radius: 8px;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+
+    background-image: url(/recursos/foto_nick_150x150.jpg);
+    background-size: cover;
+    background-position: bottom;
+}

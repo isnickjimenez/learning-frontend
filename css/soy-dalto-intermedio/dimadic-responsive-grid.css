@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    /* 
+        auto-fit, va verificando si en la direccion entra otro 
+                casilla la pone o adapta a la pantalla
+ 
+        auto-fill, crea columasn o filas para ir rellenando 
+
+        ambos rellenas como unn wrap
+    */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));    
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid--item {
+    background-color: #48e;
+    color: #eee;
+    text-align: center;
+    font-size: 35px;
+}

@@ -1,0 +1,16 @@
+body {
+    color: blueviolet;
+}
+
+h1 {
+    color: rgb(195, 35, 35);
+}
+
+p {
+    /* esto quiere decir que el color lo heredara en un padre que tenga el atributo determinador sirbe para todo */
+    color: inherit;
+    /* esto restablemde el valor por defecto */
+    color: initial;
+    /* estpo depende de su navegador */
+    color: revert;
+}
